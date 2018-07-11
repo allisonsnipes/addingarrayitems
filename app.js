@@ -1,16 +1,10 @@
 function addToList(list, item) {
-  const input1 = ['red', 'blue', 'green'];
-  const input2 = 'pink';
-  addToList.push(input1, input2);
+  list.push(item);
+  return list;
 }
 
 /* From here down, you are not expected to 
-   understand.... for now :)  
-   
-   
-   Nothing to see here!
-   
-*/
+   understand.... for now :)  Nothing to see here! */
 
 // tests
 
